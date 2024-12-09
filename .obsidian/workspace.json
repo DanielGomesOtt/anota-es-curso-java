@@ -16,7 +16,7 @@
                 "file": "Java.canvas",
                 "viewState": {
                   "x": -240,
-                  "y": -130,
+                  "y": 206.0374220374222,
                   "zoom": -0.8533192830443584
                 }
               },
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "16e4f0b192b11650",
@@ -165,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db369e4ab7518b1a",
+  "active": "2d9028d813993ddc",
   "lastOpenFiles": [
     "Untitled.md",
     "Java.canvas"
