@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "b6ee5e01782279bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "916d72162106ff49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d9028d813993ddc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Java.canvas",
+                "viewState": {
+                  "x": -240,
+                  "y": -130,
+                  "zoom": -0.8533192830443584
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Java"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "374d46e309bde07e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c4d9223a345576d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db369e4ab7518b1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "80d3256cb1df079a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "72a5c2e7ac350347",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "16e4f0b192b11650",
+    "type": "split",
+    "children": [
+      {
+        "id": "f753732f3c4cdaeb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3252f028f64383be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Java"
+            }
+          },
+          {
+            "id": "c0bb767a7584e89f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Java"
+            }
+          },
+          {
+            "id": "56ab33528d2101f5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2ea35584d5f04b18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Java"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "db369e4ab7518b1a",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Java.canvas"
+  ]
+}

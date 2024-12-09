@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"8be7b2cbc7242603","type":"text","text":"A primeira classe a ser executada sempre será a classe \"main\".\n\nEnquanto os arquivos são classes java, as pastas são pacotes.\n\nO código fica todo dentro da pasta src.\n\n\n\n","x":-1300,"y":-820,"width":340,"height":220},
+		{"id":"80ce53e11a2122eb","x":-1255,"y":-920,"width":250,"height":60,"type":"text","text":"Introdução"},
+		{"id":"0b62e85deabd3642","x":-800,"y":-920,"width":250,"height":60,"type":"text","text":"Comentários"},
+		{"id":"2dd073038e9704df","x":-842,"y":-820,"width":335,"height":220,"type":"text","text":"Comentário de uma linha:  //.\n\nComentário múltiplas linhas:  /*  */.\n\nComentário com JavaDoc:  /** */.\n\n\n\n\n"},
+		{"id":"8264dfc083eb142b","x":-325,"y":-820,"width":425,"height":260,"type":"text","text":"Declaração de variável: tipo nome = valor;\nEx: int numero = 1;\n\nDeclaração de constante: final tipo NOME = valor;\nEx: final double VALOR = 2.00;\n\nDeclaração por inferência (somente dentro de métodos): var nome = valor;\nEx: var nome = \"Meu nome\";\n\n\n"},
+		{"id":"cf4a550453d70378","x":-237,"y":-920,"width":250,"height":60,"type":"text","text":"Variáveis e constantes"},
+		{"id":"66449d5d7ddd92b5","x":-237,"y":-440,"width":250,"height":60,"type":"text","text":"Tipos primitivos"},
+		{"id":"fb9290fbdf2a8aad","x":-487,"y":-320,"width":750,"height":980,"type":"text","text":"byte.\nshort.\nint.\nlong.\ndouble.\nfloat.\nchar.\nboolean.\n\n-------------------------------\nÉ possível formatar números grandes usando \"__\", para melhor visualização.\nEx: 3000256  ->  3_000_256\n\nNúmeros Inteiros:\n\nint (padrão): Números inteiros sem sufixo são tratados como int. Exemplo: um número como 1000 será do tipo int.\nlong (sufixo L ou l): Use L para números inteiros grandes que excedem o limite de int. Exemplo: 10000000000L.\nNúmeros Decimais:\n\ndouble (padrão): Números com ponto decimal, como 3.14159, são tratados como double.\nfloat (sufixo F ou f): Use F para números decimais que devem ser do tipo float, que tem menos precisão. Exemplo: 19.99F.\nCaracteres e Strings:\n\nchar: Representado por aspas simples e usado para um único caractere, como 'A'.\nString: Representado por aspas duplas para texto, como \"Java\".\nBooleanos:\n\nApenas dois valores possíveis: true ou false.\nHexadecimais e Binários:\n\nHexadecimal: Usa o prefixo 0x ou 0X. Exemplo: 0xFF representa 255 em decimal.\nBinário: Usa o prefixo 0b ou 0B. Exemplo: 0b1010 representa 10 em decimal.\nOutros Literais:\n\nSeparador para legibilidade: Use _ para separar números grandes, como em 1_000_000.\nCaracteres especiais: Use \\ para escapar caracteres em strings, como \\n para uma nova linha ou \\\\ para uma barra invertida.\n\n"},
+		{"id":"30740c12a0e584a1","x":380,"y":-920,"width":250,"height":60,"type":"text","text":"importação"},
+		{"id":"6ad7becc31b935af","x":380,"y":-820,"width":250,"height":110,"type":"text","text":"Só usar a palavra \"import\" no começo do programa."},
+		{"id":"8fd201fda2cb2dde","x":408,"y":-320,"width":412,"height":340,"type":"text","text":"Exemplo de uso: String nome = \"Meu nome\";\n\nO objeto String é imutável, ou seja, não pode ter seu valor atribuído originalmente modificado.\n\nAtravés do String., temos acesso a várias funcionalidades como toUpperCase(), concat, etc.\n\nPodemos usar notação de ponto em String literais também.\nEx: System.out.prinln(\"Bom dia\".toUpperCase());"},
+		{"id":"559f7b8e4f6cb351","x":489,"y":-440,"width":250,"height":60,"type":"text","text":"String"}
+	],
+	"edges":[
+		{"id":"9b95da6358c1f48d","fromNode":"80ce53e11a2122eb","fromSide":"bottom","toNode":"8be7b2cbc7242603","toSide":"top"},
+		{"id":"a352e797531ecb4d","fromNode":"0b62e85deabd3642","fromSide":"bottom","toNode":"2dd073038e9704df","toSide":"top"},
+		{"id":"6f192b66087a31d5","fromNode":"cf4a550453d70378","fromSide":"bottom","toNode":"8264dfc083eb142b","toSide":"top"},
+		{"id":"69347a4338e33c45","fromNode":"66449d5d7ddd92b5","fromSide":"bottom","toNode":"fb9290fbdf2a8aad","toSide":"top"},
+		{"id":"94fd20a9f1dfa50e","fromNode":"8264dfc083eb142b","fromSide":"bottom","toNode":"66449d5d7ddd92b5","toSide":"top"},
+		{"id":"9f64a701c82177d8","fromNode":"30740c12a0e584a1","fromSide":"bottom","toNode":"6ad7becc31b935af","toSide":"top"},
+		{"id":"957c430902d64fe3","fromNode":"559f7b8e4f6cb351","fromSide":"bottom","toNode":"8fd201fda2cb2dde","toSide":"top"},
+		{"id":"031c8af712e48faa","fromNode":"fb9290fbdf2a8aad","fromSide":"right","toNode":"8fd201fda2cb2dde","toSide":"left"}
+	]
+}
