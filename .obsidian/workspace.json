@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Java.canvas",
+                "file": "Java fundamentos.canvas",
                 "viewState": {
-                  "x": -240,
-                  "y": 206.0374220374222,
-                  "zoom": -0.8533192830443584
+                  "x": -244,
+                  "y": -403.20980099003003,
+                  "zoom": -1.0413916311969302
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Java"
+              "title": "Java fundamentos"
             }
           }
         ]
@@ -168,6 +168,6 @@
   "active": "2d9028d813993ddc",
   "lastOpenFiles": [
     "Untitled.md",
-    "Java.canvas"
+    "Java fundamentos.canvas"
   ]
 }
